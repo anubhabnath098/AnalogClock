@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#clockContainer {
+	position: relative;
+	margin: auto;
+	height: 30vw;
+	/*to make the height and width responsive*/
+	width: 30vw;
+	background: url("./assets/clock-face-transparent-background-2.png") no-repeat;
+	/*setting our background image*/
+	background-size: 100%;
+    overflow:hidden;
+}
+header{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hour,
+#minute,
+#second {
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+	transform-origin: bottom;
+}
+
+#hour {
+	width: 1.8%;
+	height: 25%;
+	top: 25%;
+	left: 48.85%;
+	opacity: 0.8;
+}
+
+#minute {
+	width: 1.6%;
+	height: 30%;
+	top: 19%;
+	left: 48.9%;
+	opacity: 0.8;
+}
+
+#second {
+	width: 1%;
+	height: 40%;
+	top: 9%;
+	left: 49.25%;
+	opacity: 0.8;
+}
+body{
+    background-image: linear-gradient(black,rgb(0, 0, 131),rgb(112, 0, 153));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
